@@ -1,0 +1,55 @@
+{
+    "Event": {
+      "_id": "EventID",
+      "Name": "Event Name",
+      "Date": "2025-01-01",
+      "Venue": {
+        "VenueID": "VenueID",
+        "Name": "Venue Name",
+        "Location": "Location",
+        "Capacity": 500
+      },
+      "Organizer": {
+        "OrganizerID": "OrganizerID",
+        "Name": "Organizer Name",
+        "ContactInfo": "Organizer Contact Info"
+      },
+      "Category": {
+        "CategoryID": "CategoryID",
+        "Name": "Category Name"
+      },
+      "Tickets": [
+        {
+          "TicketID": "TicketID1",
+          "Price": 50,
+          "Type": "VIP",
+          "Customer": {
+            "ParticipantID": "ParticipantID1",
+            "Name": "Participant Name",
+            "Email": "participant@example.com"
+          }
+        }
+      ],
+      "Reviews": [
+        {
+          "ReviewID": "ReviewID1",
+          "Rating": 4,
+          "Text": "Great event!"
+        }
+      ],
+      "Staff": [
+        {
+          "StaffID": "StaffID1",
+          "Role": "Security"
+        }
+      ],
+      "Sponsors": [
+        {
+          "SponsorID": "SponsorID1",
+          "Name": "Sponsor Name",
+          "Amount": 10000
+        }
+      ]
+    }
+  }
+  
